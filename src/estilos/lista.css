@@ -1,0 +1,98 @@
+
+.experiencia{
+    padding: 140px 40px 60px 40px;
+    position: relative;
+    top: 15em;
+}
+
+
+#titulo-int{
+    background-color: white;
+    z-index: 4;
+    position: absolute;
+    margin-top: -8em; 
+    left: 29vw;
+    width: 40%;
+    border: 1.5px solid black;
+    border-radius: 10vh;
+    height: 49px;  
+}
+
+#texto-discografia{
+    font-family: 'Comfortaa', cursive;
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    margin-top: 6px;    
+}
+@media screen and (max-width: 640px) {
+    #texto-discografia {
+        font-size: 20px;
+        
+    }
+    
+}
+@media screen and (max-width: 750px) {
+    #titulo-int{
+        width: 55%;
+        position: absolute;
+        left: 22vw; 
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        height: 45px;  
+    }  
+}
+
+.album-titulo{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 20px 10px;
+    font-family: 'Zen Dots', cursive;
+}
+
+.album-cover:hover {
+    transition: 1s;
+    scale: 110%;
+}
+
+.year{
+    font-family: 'Comfortaa', cursive;
+    margin-top: -14px;
+}
+
+
+
+
+.badges-contenedor{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.badge{
+    margin: 5px;
+}
+
+.seccion-clara{
+    color: black;
+    background-color: white;
+}
+
+.experiencia .columna{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: all 0.1s ease-in;
+}
+
+.experiencia .columna:hover{
+    color: white;
+    background-color: black;
+}
+
+#alfabeticamente{
+    display: none;
+}
+
